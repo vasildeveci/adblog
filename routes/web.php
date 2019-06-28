@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('/post',function (){
     return view('user.post');
 });
+Route::get('/admin',function (){
+    return view('admin.home');
+});

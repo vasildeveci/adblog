@@ -11,15 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('user.welcome');
-});
-Route::get('/post',function (){
-    return view('user.post');
-});
-Route::get('/admin',function (){
-    return view('admin.home');
-});
-Route::get('admin/post',function(){
-    return view('admin.post.post');
-});
+Route::resource('admin/post','admin\PostController');
+Route::resource('admin/tag','admin\TagController');
+Route::resource('admin/category','admin\CategoryController');
+Route::get('/','user\HomeController@index');
+Route::get('/post','user\PostController@index');
+Route::get('/admin','admin\HomeController@index');

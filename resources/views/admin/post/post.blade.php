@@ -62,8 +62,8 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label for="img">Resim</label>
-                                    <input type="file" class="form-control" id="img" name="img">
+                                    <label for="image">Resim</label>
+                                    <input type="file" class="form-control" id="image" name="image">
                                 </div>
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" id="checkbox">

@@ -52,7 +52,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/admin/category" class="nav-link">
               <i class="nav-icon fa fa-th"></i>
               <p>
                 Kategoriler
@@ -61,7 +61,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/admin/tag" class="nav-link">
               <i class="nav-icon fa fa-th"></i>
               <p>
                 Tag'lar

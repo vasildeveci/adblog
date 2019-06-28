@@ -5,7 +5,7 @@
            alt="AdminLTE Logo"
            class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">AdminLTE 3</span>
+      <span class="brand-text font-weight-light">AdBlog LTE</span>
     </a>
 
     <!-- Sidebar -->
@@ -43,11 +43,38 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="../widgets.html" class="nav-link">
+            <a href="/admin/post" class="nav-link">
               <i class="nav-icon fa fa-th"></i>
               <p>
-                Widgets
-                <span class="right badge badge-danger">New</span>
+                Posts
+                <!-- <span class="right badge badge-danger">New</span> -->
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-th"></i>
+              <p>
+                Kategoriler
+                <!-- <span class="right badge badge-danger">New</span> -->
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-th"></i>
+              <p>
+                Tag'lar
+                <!-- <span class="right badge badge-danger">New</span> -->
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-th"></i>
+              <p>
+                Kullanıcılar
+                <!-- <span class="right badge badge-danger">New</span> -->
               </p>
             </a>
           </li>

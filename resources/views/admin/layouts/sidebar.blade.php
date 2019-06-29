@@ -43,7 +43,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="/admin/post" class="nav-link">
+            <a href="{{Route('post.index')}}" class="nav-link">
               <i class="nav-icon fa fa-th"></i>
               <p>
                 Posts
@@ -52,7 +52,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/category" class="nav-link">
+            <a href="{{Route('category.index')}}" class="nav-link">
               <i class="nav-icon fa fa-th"></i>
               <p>
                 Kategoriler
@@ -61,7 +61,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/tag" class="nav-link">
+            <a href="{{Route('tag.index')}}" class="nav-link">
               <i class="nav-icon fa fa-th"></i>
               <p>
                 Tag'lar

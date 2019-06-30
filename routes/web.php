@@ -14,6 +14,7 @@
 Route::resource('admin/post','admin\PostController');
 Route::resource('admin/tag','admin\TagController');
 Route::resource('admin/category','admin\CategoryController');
+Route::resource('admin/user','admin\UserController');
 Route::get('/','user\HomeController@index');
 Route::get('/post','user\PostController@index');
 Route::get('/admin','admin\HomeController@index');
